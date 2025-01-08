@@ -55,7 +55,7 @@ function Hero() {
           />
           <p className="text-center lowercase mt-2 md:tracking-wider mb-4 text-sm md:text-lg lg:text-xl">
             Knack of building applications with{' '}
-            <span className="uppercase font-bold text-green-200">MERN</span> Stack technology.
+            <span className="uppercase font-bold text-purple">MERN</span> Stack technology.
           </p>
 
           <a href="#about">
