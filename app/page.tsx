@@ -1,5 +1,6 @@
 
 import { Academics } from "@/components/Academics";
+import Certifications from "@/components/Certifications";
 import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
 import Projects from "@/components/Projects";
@@ -17,6 +18,7 @@ export default function Home() {
         <Grid />
         <Projects />
         <Academics />
+        <Certifications />
       </div>
     </main>
   );

@@ -32,15 +32,15 @@
   }
   
   .animate-slide-in-left {
-    animation: slideInFromLeft 2.2s ease-out forwards;
+    animation: slideInFromLeft 2.5s ease-out forwards;
   }
   
   .animate-slide-in-right {
-    animation: slideInFromRight 2.2s ease-out forwards;
+    animation: slideInFromRight 2.5s ease-out forwards;
   }
   
   .animate-fade-in-up {
-    animation: fadeInUp 2.2s ease-out forwards;
+    animation: fadeInUp 2.5s ease-out forwards;
   }
   
   .invisible {

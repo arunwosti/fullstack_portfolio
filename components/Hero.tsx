@@ -3,10 +3,21 @@ import React from 'react';
 import { Spotlight } from './ui/Spotlight';
 import { TypeAnimation } from 'react-type-animation';
 import MagicButton from './ui/MagicButton';
-import { FaLocationArrow } from 'react-icons/fa';
+import { FaFacebookSquare, FaInstagramSquare, FaLocationArrow } from 'react-icons/fa';
 import { BackgroundLines } from './ui/BackgroundLines';
+import { FloatingDock } from './ui/FloatingDock';
+import { GrLinkedin } from 'react-icons/gr';
+import { FaSquareXTwitter } from 'react-icons/fa6';
+import { MdEmail } from 'react-icons/md';
 
 function Hero() {
+  const dockItems = [
+    { title: "Linkedin", icon: <GrLinkedin />, href: "https://www.linkedin.com/in/arun-wosti-893752246/" },
+    { title: "Instagram", icon: <FaInstagramSquare />, href: "https://www.instagram.com/_awroon/" },
+    { title: "Facebook", icon: <FaFacebookSquare />, href: "https://www.facebook.com/awroon.osti.50" },
+    {title: "Twitter", icon: <FaSquareXTwitter />, href: "/"},
+    {title: "Email", icon: <MdEmail />, href: "#about"}
+  ];
   return (
     <div className="pb-20 pt-16 relative" id="hero">
       <div>
@@ -57,8 +68,10 @@ function Hero() {
             Knack of building applications with{' '}
             <span className="uppercase font-bold text-purple">MERN</span> Stack technology.
           </p>
-
-          <a href="#about">
+            <div className='flex px-10  py-5 items-center justify-center '>
+              <FloatingDock items={dockItems} />
+            </div>
+          <a href="#projects">
             <MagicButton title="Show my work" icon={<FaLocationArrow />} position="right" />
           </a>
         </div>
