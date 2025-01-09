@@ -1,6 +1,8 @@
 export const navItems = [
+  { name: "Home", link: "#hero" },
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
+  { name: "Academics", link: "#academics" },
   { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
@@ -147,6 +149,7 @@ export const projects = [
     link: "/ui.apple.com",
   },
 ];
+
 
 export const testimonials = [
   {
