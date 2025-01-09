@@ -4,7 +4,7 @@ export const navItems = [
   { name: "Projects", link: "#projects" },
   { name: "Academics", link: "#academics" },
   { name: "Certifications", link: "#certificates" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Experiences", link: "#experience" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -127,11 +127,11 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Green Way Welfare Society",
-    des: "A non-governmental organization for protecting the rights of conflict-affected women.",
-    img: "/ngo.jpeg",
+    title: "Hair Salon Website",
+    des: "A dynamic and responsive website for a hair salon using react.js.",
+    img: "/saloon.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://arunwosti.github.io/ngo_website/",
+    link: "https://64cc77a529c9544a8efdbcd8--hilarious-cassata-a0779e.netlify.app/",
   },
   {
     id: 3,
@@ -143,11 +143,11 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    title: "Green Way Welfare Society",
+    des: "A non-governmental organization for protecting the rights of conflict-affected women.",
+    img: "/ngo.jpeg",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    link: "https://arunwosti.github.io/ngo_website/",
   },
 ];
 
@@ -221,28 +221,28 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
+    title: "Frontend Developer Intern",
     desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Mobile App Dev - Intern",
+    desc: "Designed and developed mobile app for both iOS & Android platforms using Flutter.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Accountant",
+    desc: "Worked as a accountant assistance manager at a financial organization.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
+    title: "Freelance Webapp Dev",
     desc: "Developed and maintained user-facing features using modern frontend technologies.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",

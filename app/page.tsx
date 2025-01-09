@@ -1,6 +1,9 @@
 
 import { Academics } from "@/components/Academics";
+import Approach from "@/components/Approach";
 import Certifications from "@/components/Certifications";
+import Contact from "@/components/Contact";
+import Experience from "@/components/Experience";
 import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
 import Projects from "@/components/Projects";
@@ -19,6 +22,9 @@ export default function Home() {
         <Projects />
         <Academics />
         <Certifications />
+        <Experience />
+        <Approach />
+        <Contact />
       </div>
     </main>
   );

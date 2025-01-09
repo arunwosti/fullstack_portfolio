@@ -15,8 +15,8 @@ function Hero() {
     { title: "Linkedin", icon: <GrLinkedin />, href: "https://www.linkedin.com/in/arun-wosti-893752246/" },
     { title: "Instagram", icon: <FaInstagramSquare />, href: "https://www.instagram.com/_awroon/" },
     { title: "Facebook", icon: <FaFacebookSquare />, href: "https://www.facebook.com/awroon.osti.50" },
-    {title: "Twitter", icon: <FaSquareXTwitter />, href: "/"},
-    {title: "Email", icon: <MdEmail />, href: "#about"}
+    {title: "Git", icon: <FaSquareXTwitter />, href: "https://github.com/arunwosti"},
+    {title: "Email", icon: <MdEmail />, href: "mailto:ostiarun55@gmail.com"}
   ];
   return (
     <div className="pb-20 pt-16 relative" id="hero">
