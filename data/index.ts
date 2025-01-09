@@ -253,13 +253,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    linkto:"https://github.com/arunwosti"
   },
   {
     id: 2,
     img: "/twit.svg",
+    linkto:"mailto:ostiarun55@gmail.com"
   },
   {
     id: 3,
     img: "/link.svg",
+    linkto:"https://www.linkedin.com/in/arun-wosti-893752246/"
   },
 ];
