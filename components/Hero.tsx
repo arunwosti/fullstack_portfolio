@@ -3,7 +3,7 @@ import React from 'react';
 import { Spotlight } from './ui/Spotlight';
 import { TypeAnimation } from 'react-type-animation';
 import MagicButton from './ui/MagicButton';
-import { FaFacebookSquare, FaInstagramSquare, FaLocationArrow } from 'react-icons/fa';
+import { FaFacebookSquare, FaGithub, FaInstagramSquare, FaLocationArrow } from 'react-icons/fa';
 import { BackgroundLines } from './ui/BackgroundLines';
 import { FloatingDock } from './ui/FloatingDock';
 import { GrLinkedin } from 'react-icons/gr';
@@ -15,7 +15,7 @@ function Hero() {
     { title: "Linkedin", icon: <GrLinkedin />, href: "https://www.linkedin.com/in/arun-wosti-893752246/" },
     { title: "Instagram", icon: <FaInstagramSquare />, href: "https://www.instagram.com/_awroon/" },
     { title: "Facebook", icon: <FaFacebookSquare />, href: "https://www.facebook.com/awroon.osti.50" },
-    {title: "Git", icon: <FaSquareXTwitter />, href: "https://github.com/arunwosti"},
+    {title: "Git", icon: <FaGithub />, href: "https://github.com/arunwosti"},
     {title: "Email", icon: <MdEmail />, href: "mailto:ostiarun55@gmail.com"}
   ];
   return (
